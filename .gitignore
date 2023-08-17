@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rider-specific files
 .idea/
 *.sln.iml
@@ -31,3 +32,6 @@ project.lock.json
 
 # Rider workspace file
 *.rider/workspace.xml
+=======
+.idea
+>>>>>>> 9b67707 (add ignore file)
