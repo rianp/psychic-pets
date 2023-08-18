@@ -1,7 +1,26 @@
-version: '3'
+version: '3.4'
+
 services:
-  db:
-    image: mcr.microsoft.com/mssql/server
+  psychic-pets:
+    build:
+      context: .
+      dockerfile: PsychicPets/Dockerfile
+    ports:
+      - "80:80"
     environment:
-      SA_PASSWORD: pizzaPizza!
-      ACCEPT_EULA: Y
+      ConnectionStrings__DefaultConnection: "Server=psychic-pets-db;Database=PsychicPetsDb;User=sa;Password=pizzaPizza!"
+
+  psychic-pets-db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "pizzaPizza!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - db-data:/var/opt/mssql
+
+volumes:
+  db-data:
+
+
