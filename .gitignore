@@ -1,0 +1,33 @@
+# Rider-specific files
+.idea/
+*.sln.iml
+
+# .NET artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.vscode
+*.vs
+
+# User-specific files
+.vscode/
+*.userprefs
+*.suo
+*.sln.docstates
+
+# NuGet packages
+*.nuget.cache/
+packages/
+project.lock.json
+
+# macOS-specific
+.DS_Store
+
+# Visual Studio Code specific files
+.vscode/
+
+# Rider workspace file
+*.rider/workspace.xml

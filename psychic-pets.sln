@@ -1,0 +1,27 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsychicPets", "PsychicPets\PsychicPets.csproj", "{9EB060D0-6DD4-4C0D-BE4A-FBD3A154E37D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsychicPets.Tests", "PsychicPets.Tests\PsychicPets.Tests.csproj", "{AC1265E4-BCF8-4290-8E4C-D0A4C7BD2338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EB060D0-6DD4-4C0D-BE4A-FBD3A154E37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB060D0-6DD4-4C0D-BE4A-FBD3A154E37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB060D0-6DD4-4C0D-BE4A-FBD3A154E37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB060D0-6DD4-4C0D-BE4A-FBD3A154E37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1265E4-BCF8-4290-8E4C-D0A4C7BD2338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1265E4-BCF8-4290-8E4C-D0A4C7BD2338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1265E4-BCF8-4290-8E4C-D0A4C7BD2338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1265E4-BCF8-4290-8E4C-D0A4C7BD2338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
