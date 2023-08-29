@@ -1,5 +1,7 @@
 using PsychicPets.Pets;
 using Microsoft.EntityFrameworkCore;
+using PsychicPets.Models;
+
 
 namespace PsychicPets.EntityFramework;
 public class PetsContext : DbContext
